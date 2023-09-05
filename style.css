@@ -276,6 +276,10 @@ h3{
         padding: 0px;
     }
       
+    #expand {
+        width: calc(100vw - 2vw*2);
+    }
+
     .header {
         grid-template-columns: 20vw 60vw 20vw;
     }
