@@ -254,6 +254,14 @@ h3{
 
 @media (max-width: 920px) {
 
+    h1 {
+        font-size: 40px;
+    }
+
+    .main {
+        width: 100vw;
+    }
+
     .footer-txt {
         font-size: 20px;
     }
@@ -268,7 +276,7 @@ h3{
     }
       
     .header {
-        grid-template-columns: 20vw 40vw 20vw;
+        grid-template-columns: 20vw 60vw 20vw;
     }
 
     .main-section {
@@ -448,7 +456,25 @@ footer{
     }
 }
 
+@media (max-width: 565px) {
+    .column-6 {
+        z-index: -1;
+        color:lightgray;
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 1;
+        background-color: #17243B;
+    }
 
+    .column-5 {
+        z-index: -1;
+        color:lightgray;
+        padding: 5px;
+        grid-row: 2;
+        grid-column: 3;
+        background-color: #17243B;
+    }
+}
 
 a {
     text-decoration: none;
