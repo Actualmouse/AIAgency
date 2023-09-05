@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AAA</title>
+    <link rel="icon" href="main-img.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+
+    <script src="script.js"></script>
+    
+    <header class="header" id="header">
+        <div class="grid-item">Column 1</div>
+        <div class="grid-item column-2">Column 2 (2fr)</div>
+        <div class="grid-item">
+            <label class="switch">
+                <input type="checkbox" id="darkmode" onclick="darkMode()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="grid-item column-4">
+            <p class="CNT" onclick="expand(this)" style="width: 150px;">Contact Us</p>
+            <p class="ABT" onclick="expand(this)" style="width: 150px;">About Us</p>
+            <p class="SRV" onclick="expand(this)" style="width: 150px;">Our Services</p>
+        </div>
+        <div class="grid-item column-5"></div>
+        <div class="grid-item column-6"></div>
+        <div id="expand" class="invisible grid-item" style="text-align: center;">
+            <p id="change"></p>
+            <button onclick="closeD()" class="button" style="width: 20%; margin: 0 auto; padding: 5px 0px 5px 0px;">Close</button>
+        </div>
+    </header>
+
+    <div class="main" id="main"><!--main pg-->
+        <section class="main-section">
+
+            <div class="title-div">
+                <p class="min-title">AIChatSolutions</p>
+                <h1>Experience the future of seamless customer interactions with our advanced AI chat bots services and AI automations </h1>
+                <p style="font-size: 1.1rem;">Join us in redefining engagement and efficiency through AI-driven conversations.</p>
+                <div class="child-title-div">
+                    <button class="button">Join us</button>
+                    <a href="#customer"><p class="second-button">Learn more...</p></a>
+                </div>
+            </div>
+            
+            <img class="main-image" src="main-img.png">
+        </section>
+
+        <section class="feature-section" id="customer">
+            <div class="logo-bunch">
+                <img class="logo-image" src="icon.png">
+                <img class="logo-image" src="icon-2.png">
+                <img class="logo-image" src="icon-3.png">
+            </div>
+            <h2>Features</h2>
+            <div class="below-main">
+                <img class="feature-image" src="features.png">
+                <div class="features">
+                    <h3>Variety</h3>
+                    <p>Chatbots come in variations (for Gyms, Coaches, Real Estate, etc.)</p>
+                    <h3>Integrations</h3>
+                    <p>Integrations with various CRMs and Data Sources</p>
+                    <h3>Automations</h3>
+                    <p>Mostly, all of them that can be made on zapier/make.</p>
+                    <h3>Flexibility</h3>
+                    <p>Multi platform messaging integrations</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer-section" id="feature">
+            <h2>Our Values</h2>
+            <div class="bunch">
+                <div class="first">
+                    <h3>Developing</h3>
+                    <p class="txt">Developing the Future With Our Team of Experts in Algorithmic Engineering</p>
+                </div>
+                <div Class="second">
+                    <h3>Improving</h3>
+                    <p class="txt">Improving Current Software and Implementing Ai Into Outdated Equipment</p>
+                </div>
+                <div Class="third">
+                    <h3>Excelling</h3>
+                    <p class="txt">Being Unique and Effective in a Modern, Stylish and Dynamic Environment</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h2 class="footer-txt">Chat bots: Your AI-powered partners in growth and engagement</h2>
+            <div class="footer-bottom">
+
+                <div class="bot-div">
+                    <p style="color: white">Products</p>
+                    <a href="https://mediafiles.botpress.cloud/e92a3de3-5d87-4f0d-9f2c-2f97f7eef9ff/webchat/bot.html"><p class="txt-foot">Real Estate Chatbot</p></a>
+                    <a href="https://mediafiles.botpress.cloud/c8ce3638-d086-4d17-95da-a61a7cbea5ae/webchat/bot.html"><p class="txt-foot">Fitness Center and Gyms</p></a>
+                    <a href="https://mediafiles.botpress.cloud/6e87d8a7-110b-401f-9426-4d3a58d71ab4/webchat/bot.html"><p class="txt-foot">Legal and Financial</p></a>
+                    <a href="https://mediafiles.botpress.cloud/b2c8b1a4-ac39-4321-a0be-09cedc2b82d2/webchat/bot.html"><p class="txt-foot">Education and tutoring</p></a>
+                    <a href="https://mediafiles.botpress.cloud/e1cc9b70-ac67-4d62-a148-13dfaaa4ba2e/webchat/bot.html"><p class="txt-foot">Restaurants and Cafes</p></a>
+                    <a href="https://mediafiles.botpress.cloud/89eb198c-453e-46b0-be0b-df917b278c42/webchat/bot.html"><p class="txt-foot">Medical Clinic/Healthcare</p></a>
+                    <a href="https://mediafiles.botpress.cloud/cb8c5f06-2559-416e-a88a-ceaf818c7986/webchat/bot.html"><p class="txt-foot">Beauty and Wellness Salons</p></a>
+                    <a href="https://mediafiles.botpress.cloud/6bb22fb1-6cc5-43fd-a57a-52a10022bb7b/webchat/bot.html"><p class="txt-foot">Chiropractic Clinics</p></a>
+                    <a href="https://mediafiles.botpress.cloud/289b14c7-0824-4064-a4f7-653c5e3d5585/webchat/bot.html"><p class="txt-foot">E-commerce Stores</p></a>
+                </div>
+                <div class="bot-div">
+                    <p style="color: white">Solutions</p>
+                    <p>Solutions</p>
+                    <p>Solutions</p>
+                    <p>Solutions</p>
+                    <p>Solutions</p>
+                </div>
+                <div class="bot-div">
+                    <p style="color: white">Docs</p>
+                    <a href=""><p class="right txt-foot">Docs</p></a>
+                    <a href=""><p class="right txt-foot">Docs</p></a>
+                    <a href=""><p class="right txt-foot">Docs</p></a>
+                    <a href=""><p class="right txt-foot">Docs</p></a>
+                </div>
+                
+            </div>
+            <p style="color: aliceblue;">© 2023 AI Chat Solutions UK. All rights reserved.</p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
