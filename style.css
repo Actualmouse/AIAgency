@@ -5,7 +5,7 @@ html{
     align-items: center;
     font-family: 'Arimo', sans-serif;
     transition: 0.3s;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .visible {
